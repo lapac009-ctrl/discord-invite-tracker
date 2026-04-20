@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Invite Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Discord Invite Tracker</h1>
+            <a href="#" class="login">Login with Discord</a>
+        </header>
+        <main>
+            <section class="stats">
+                <h2>Invite Statistics</h2>
+                <table>
+                    <tr>
+                        <th>User</th>
+                        <th>Invites</th>
+                    </tr>
+                    <!-- Populate with JavaScript -->
+                </table>
+            </section>
+            <section class="generator">
+                <h2>Invite Generator</h2>
+                <form id="inviteForm">
+                    <label for="inviteCode">Invite Code:</label>
+                    <input type="text" id="inviteCode" name="inviteCode" required>
+                    <button type="submit">Generate Invite</button>
+                </form>
+            </section>
+            <section class="profile">
+                <h2>User Profile</h2>
+                <div class="user-info">
+                    <!-- User information will be displayed here -->
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Discord Invite Tracker</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
